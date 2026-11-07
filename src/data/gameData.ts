@@ -1,4 +1,7 @@
 import { MysteryRound, ScrambleWord, WheelChallenge, StoryPrompt } from '../types/game';
+import castleImg from '../assets/images/story_magical_castle_1794003254166.jpg';
+import safariImg from '../assets/images/mystery_safari_animals_1794003253155.jpg';
+import spaceImg from '../assets/images/mystery_space_adventure_1794003253062.jpg';
 
 export const MYSTERY_ROUNDS: MysteryRound[] = [
   {
@@ -229,7 +232,7 @@ export const STORY_PROMPTS: StoryPrompt[] = [
   {
     id: 's1',
     scenario: 'The Mysterious Cloud Castle Adventure',
-    imagePath: '/src/assets/images/story_magical_castle_1794003254166.jpg',
+    imagePath: castleImg,
     character: 'A brave junior detective with a magical magnifying glass',
     item: 'A golden flying backpack that hums funny tunes',
     location: 'A shimmering rainbow bridge high in the fluffy clouds',
@@ -238,7 +241,7 @@ export const STORY_PROMPTS: StoryPrompt[] = [
   {
     id: 's2',
     scenario: 'The Secret Safari Birthday Mystery',
-    imagePath: '/src/assets/images/mystery_safari_animals_1794003253155.jpg',
+    imagePath: safariImg,
     character: 'A cheeky monkey who can speak human English',
     item: 'A giant birthday cake that grants one funny wish',
     location: 'The ancient singing baobab tree in the middle of the jungle',
@@ -247,7 +250,7 @@ export const STORY_PROMPTS: StoryPrompt[] = [
   {
     id: 's3',
     scenario: 'The Astronaut and the Lost Space Map',
-    imagePath: '/src/assets/images/mystery_space_adventure_1794003253062.jpg',
+    imagePath: spaceImg,
     character: 'A friendly alien chef searching for the universe’s sweetest fruit',
     item: 'A floating holographic treasure map of the Milky Way',
     location: 'The rings of Saturn next to a cosmic satellite station',
