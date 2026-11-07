@@ -1,0 +1,6 @@
+{
+  "name": "English Game Arena",
+  "description": "Interactive English Fun Learning game-show arena for elementary students (Grades 4–6) with Team A vs Team B scoring, Word Scramble, Spin the Wheel, and Story Chain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
